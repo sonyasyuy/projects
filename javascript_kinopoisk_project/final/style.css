@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+.result-img{
+    max-width: 25%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+body {
+    height: 100%;
+    background: #1C1C1C;
+    font-family: Roboto, serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.main {
+    margin-top: 70px;
+    /*overflow: hidden;*/
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+.main .search_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Roboto, serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-style: normal;
+}
+
+.main .search_box .search {
+    width: 628px;
+    height: 36px;
+    font-size: 24px;
+    line-height: 36px;
+    background: #1C1C1C;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 2px solid #FFFFFF;
+    text-align: center;
+}
+
+
+.main .search_box .tags {
+    margin: 25px 0;
+    display: none;
+}
+
+.main .search_box .focus {
+    display: none;
+}
+
+.main .no-results {
+    display: none;
+}
+
+.main .results {
+    display: none;
+}
+
+.main .tags {
+    display: none;
+}
+
+/* search_active */
+
+.main.search_active .search_box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main.search_active .search_box .search {
+    width: 1280px;
+    border-left: 1px solid #FFFFFF;
+    border-bottom: 2px solid #FDCE25;
+    text-align: left;
+    padding: 5px;
+}
+
+.main.search_active .search_box .search:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.main.search_active .tags {
+    display: flex;
+    flex-direction: row;
+    margin-top: -240px;
+    margin-left: 80px;
+    gap: 8px;
+}
+
+
+.main.search_active .tags .kino,
+.main.search_more_history .tags .kino {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 15px;
+    height: 20px;
+}
+
+.main.search_active .tags .kino:hover,
+.main.search_more_history .tags .kino:hover,
+.main.search_not_found .tags .kino:hover,
+.main.search_live .tags .kino:hover {
+    background: #FFFFFF;
+}
+
+/* Псевдокласс :nth-child используется для добавления стиля к элементам на основе нумерации в дереве элементов. */
+
+.main.search_active .tags .kino:nth-child(1), .main.search_active .tags .kino:nth-child(2), .main.search_active .tags .kino:nth-child(3) {
+    display: flex;
+    margin-top: 260px;
+}
+
+.main.search_more_history .tags .kino:nth-child(4), .main.search_more_history .tags .kino:nth-child(5),
+.main.search_more_history .tags .kino:nth-child(6) {
+    display: flex;
+    margin-top: 260px;
+}
+
+.main.search_more_history .tags .kino:nth-child(7),
+.main.search_more_history .tags .kino:nth-child(8), .main.search_more_history .tags .kino:nth-child(9) {
+    display: flex;
+    margin-top: -17px;
+}
+
+
+/* search_not_found */
+
+.main.search_not_found .no-results,
+.main.search_not_found.search_active .no-results {
+    display: flex;
+    top: 396px;
+    left: 80px;
+}
+
+
+/* search_live */
+
+.main.search_live .results {
+    display: flex;
+}
+
+.main.search_live .results .found_82_films {
+    position: relative;
+    top: 396px;
+    left: 80px;
+}
+
+/* scroll */
+
+
+/* .main.scroll .search_box {
+  display: flex;
+} */
+/*
+.main.search_active .search_box .rectangle,
+.main.search_active .search_box .search,
+.main.search_active .search_box .lupa,
+.main.search_active .search_box .nozhka_lupi,
+.main.search_active .search_box .focus {
+  display: none;
+} */
+
+
+/* .main.scroll .search_box .sticky {
+  display: flex;
+  position: sticky;
+  float: top;
+  top: 0;
+}
+
+.main.scroll .search_box .sticky .back {
+  width: 1440px;
+  height: 74px;
+  background: rgba(28, 28, 28, 0.8);
+  backdrop-filter: blur(2px);
+  left: 0px;
+  top: 0px;
+  border-bottom: 2px solid #FFFFFF;
+
+}
+
+.main.scroll .search_box .sticky img {
+  margin-left: 80px;
+  margin-top: 12px;
+}
+ */
+
+
+
+.footer {
+    display: flex;
+    bottom: 0;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+}
+#result {
+    color: #FFFFFF;
+    margin-top: 1.2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#search-btn {
+    cursor: pointer;
+    background-color: #FDCE25;
+    border-radius: 7px;
+    border-color: #FDCE25;
+}
+
+
+.poster {
+    width: 80%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.didnotunderstand {
+    margin-top: 100px;
+}
+
+#movies img, #movie img{
+    width:100%;
+}
+

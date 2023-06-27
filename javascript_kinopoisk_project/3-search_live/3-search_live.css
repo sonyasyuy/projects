@@ -1,0 +1,242 @@
+
+body {
+    background: #1C1C1C; /* заливка страницы */
+}
+
+
+/* Нашли 82 фильма */
+#_1 {
+    position: absolute;
+    top: 396px;
+    left: 80px;
+}
+
+#_2 {       /* картинка форест-гамп */
+    position: absolute;
+    top: 480px;
+    left: 80px;  
+}
+
+#_3 {       /* картинка спасти рядового */
+    position: absolute;
+    top: 480px;
+    left: 406px;  
+}
+
+#_4 {       /* картинка аполон */
+    position: absolute;
+    top: 480px;
+    left: 732px;  
+}
+
+#_5 {       /* картинка инферно */
+    position: absolute;
+    top: 480px;
+    left: 1058px;  
+}
+
+#_6 {       /* картинка где загрузилось название */
+    position: absolute;
+    top: 958px;
+    left: 80px;  
+}
+
+#_6_1 {
+    position: absolute;
+    top: 1320px;
+    left: 100px; 
+}
+
+#_6_2 {
+    position: absolute;
+    top: 1368px;
+    left: 100px; 
+}
+
+#_6_3 {
+    position: absolute;
+    top: 1368px;
+    left: 314px; 
+}
+
+/* не загруженные картинки */
+#_7 {
+    position: absolute;
+    top: 958px;
+    left: 406px; 
+}
+
+#_7_1 {
+    position: absolute;
+    top: 1320px;
+    left: 426px; 
+}
+
+#_7_2 {
+    position: absolute;
+    top: 1288px;
+    left: 426px; 
+}
+
+#_8 {
+    position: absolute;
+    top: 958px;
+    left: 732px; 
+}
+
+#_8_1 {
+    position: absolute;
+    top: 1320px;
+    left: 752px; 
+}
+
+#_8_2 {
+    position: absolute;
+    top: 1288px;
+    left: 752px; 
+}
+
+#_9 {
+    position: absolute;
+    top: 958px;
+    left: 1058px; 
+}
+
+#_9_1 {
+    position: absolute;
+    top: 1320px;
+    left: 1078px; 
+}
+
+#_9_2 {
+    position: absolute;
+    top: 1288px;
+    left: 1078px; 
+}
+
+#_10 {
+    position: absolute;
+    top: 1436px;
+    left: 80px; 
+}
+
+#_10_1 {
+    position: absolute;
+    top: 1798px;
+    left: 100px; 
+}
+
+#_10_2 {
+    position: absolute;
+    top: 1766px;
+    left: 100px; 
+}
+
+#_11 {
+    position: absolute;
+    top: 1436px;
+    left:406px; 
+}
+
+#_11_1 {
+    position: absolute;
+    top: 1798px;
+    left: 426px; 
+}
+
+#_11_2 {
+    position: absolute;
+    top: 1766px;
+    left: 426px; 
+}
+
+#_12 {
+    position: absolute;
+    top: 1436px;
+    left: 732px; 
+}
+
+#_12_1 {
+    position: absolute;
+    top: 1798px;
+    left: 752px; 
+}
+
+#_12_2 {
+    position: absolute;
+    top: 1766px;
+    left: 752px; 
+}
+
+#_13 {
+    position: absolute;
+    top: 1436px;
+    left: 1058px; 
+}
+
+#_13_1 {
+    position: absolute;
+    top: 1798px;
+    left: 1078px; 
+}
+
+#_13_2 {
+    position: absolute;
+    top: 1766px;
+    left: 1078px; 
+}
+
+#_14 {
+    position: absolute;
+    top: 1914px;
+    left: 80px; 
+}
+
+#_14_1 {
+    position: absolute;
+    top: 2276px;
+    left: 100px; 
+}
+
+#_14_2 {
+    position: absolute;
+    top: 2244px;
+    left: 100px; 
+}
+
+#_15 {
+    position: absolute;
+    top: 1914px;
+    left: 406px; 
+}
+
+#_15_1 {
+    position: absolute;
+    top: 2276px;
+    left: 426px; 
+}
+
+#_15_2 {
+    position: absolute;
+    top: 2244px;
+    left: 426px; 
+}
+
+#_16 {
+    position: absolute;
+    top: 1914px;
+    left: 732px; 
+}
+
+#_16_1 {
+    position: absolute;
+    top: 2276px;
+    left: 752px; 
+}
+
+#_16_2 {
+    position: absolute;
+    top: 2244px;
+    left: 752px; 
+}
+

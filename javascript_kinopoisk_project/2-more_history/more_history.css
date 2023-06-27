@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');   /* импортирую шрифт робото из библиотеки гугл */
+
+body {
+    background: #1C1C1C; /* заливка страницы */
+}
+
+#block_1 {
+    position: absolute;
+    top: 260px;
+    left: 553px;
+}
+#text1 {
+    position: absolute;
+    top: 253px;
+    left: 569px;
+}
+
+#block_2 {
+    position: absolute;
+    top: 260px;
+    left: 800px;
+}
+#text2 {
+    position: absolute;
+    top: 253px;
+    left: 816px;
+}
+
+#block_3 {
+    position: absolute;
+    top: 260px;
+    left: 937px;
+}
+#text3 {
+    position: absolute;
+    top: 253px;
+    left: 953px;
+}
+
+#block_4 {
+    position: absolute;
+    top: 304px;
+    left: 80px;
+}
+#text4 {
+    position: absolute;
+    top: 297px;
+    left: 96px;
+}
+
+#block_5 {
+    position: absolute;
+    top: 304px;
+    left: 317px;
+}
+#text5 {
+    position: absolute;
+    top: 297px;
+    left: 333px;
+}
+
+#block_6 {
+    position: absolute;
+    top: 304px;
+    left: 456px;
+}
+#text6 {
+    position: absolute;
+    top: 297px;
+    left: 472px;
+}

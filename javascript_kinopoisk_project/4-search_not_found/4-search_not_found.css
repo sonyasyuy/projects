@@ -1,0 +1,9 @@
+body {
+    background: #1C1C1C; 
+}
+
+#we_didnt_understand {
+    position: absolute;
+    left: 80px;
+    top: 396px;
+}

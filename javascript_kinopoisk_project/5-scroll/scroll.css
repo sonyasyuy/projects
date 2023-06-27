@@ -1,0 +1,39 @@
+
+ p {
+    color: aliceblue;
+ }
+
+
+
+body {
+    background: #1C1C1C; /* заливка страницы */
+}
+
+
+
+.side {
+    width: 50%;
+}
+
+.sticky {
+    position: sticky;
+    float: top;
+    top: 0;
+}
+
+.sticky .back {
+    width: 1440px;
+    height: 74px;
+    background: rgba(28, 28, 28, 0.8);
+    backdrop-filter: blur(2px);
+    left: 0px;
+    top: 0px;
+    border-bottom: 2px solid #FFFFFF;
+
+}
+
+.sticky img {
+    margin-left: 80px;
+    margin-top: 12px;
+}
+

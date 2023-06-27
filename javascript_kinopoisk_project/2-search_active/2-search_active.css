@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');   /* импортирую шрифт робото из библиотеки гугл */
+
+body {
+    background: #1C1C1C; /* заливка страницы */
+}
+
+.logotype {         /* параметры всего логотипа */
+    display: flex; /* чтобы внутренние элементы логотипа выстраивались в ряд*/
+    position: absolute;  /* позиция дочерних элементов относительно главного */
+    width: 152px;
+    height: 28px;
+    left: 646px;
+	right: 646px;
+	bottom: 612px;
+    top: 80px;
+}
+
+.logo-t {          /* параметры буквы т */
+    position: absolute;
+    width: 44px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo-t-rect-h {
+    position: absolute;
+    width: 44px;
+    height: 10px;
+    left: 0px;
+    top: 0px;
+    background:	#FFFFFF;
+}
+
+.logo-t-rect-f {
+    position: absolute;
+    width: 14px;
+    height: 18px;
+    left: 15px;
+    top: 10px;
+    background: #FFFFFF;
+}
+
+.logo-play-f {
+    left: 54px;
+    position: absolute;
+}
+
+.logo-play {
+    border-top: 12px solid transparent;
+    border-left: 20px solid #FDCE25;
+    border-bottom: 12px solid transparent;
+    padding-top: 2px;
+}
+
+.logo-pause {
+    position: absolute;
+    left: 0px;
+}
+
+.logo-pause-left {
+    position: absolute;
+    width: 6px;
+    height: 22px;
+    left: 77px;
+    top: 3px;
+    background: #FDCE25;
+}
+
+.logo-pause-right {
+    position: absolute;
+    width: 6px;
+    height: 22px;
+    left: 87px;
+    top: 3px;
+    background: #FDCE25;
+}
+
+.logo-play-pause {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.logo-p {			/* параметры буквы п */
+    position: absolute;
+    width: 44px;
+    height: 28px;
+    left: 0px;
+    top: 0px;
+}
+
+.logo-p-l {
+    position: absolute;
+    width: 13px;
+    height: 18px;
+    left: 108px;
+    top: 10px;
+    background: #FFFFFF;
+}
+
+.logo-p-h {
+    position: absolute;
+    width: 44px;
+    height: 10px;
+    left: 108px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.logo-p-r {
+    position: absolute;
+    width: 13px;
+    height: 18px;
+    left: 139px;
+    top: 10px;
+    background: #FFFFFF;
+}
+
+/* здесь кончается логотип*/
+
+
+
+/* здесь начинаются изменения в 2-search_active */
+
+#rectangle {       /* полоса под лупой*/
+	position: absolute;
+	width: 1280px;
+	height: 2px;
+	left: 80px;
+	top: 234px;
+	background-color: #FDCE25;
+
+}
+
+
+#rectangle1 {
+    position: absolute;
+	width: 1px;
+	height: 56px;
+	left: 141px;
+	top: 170px;
+	background-color: #FFFFFF;
+}
+  
+
+.lupa {						/* задаю круг */
+	display: inline-block; /* не добавляет разрыв строки после элемента, поэтому элемент может сидеть рядом с другими элементами.*/
+	margin: 1em;
+	width: 5em;
+	height: 5em;
+	border-radius: 50%;
+	}
+
+.lupa-1 {				/* параметры круга */
+	border: 3px solid #FFFFFF;
+	background: #1C1C1C;
+	position: absolute;
+	margin-top: 174px;
+	margin-bottom: 518px;
+	margin-left: 88px;
+	margin-right: 1324px;
+	width: 23px;
+	height: 23px;
+	top: 7px;
+	left: 7px;
+}
+
+
+#nozhka_lupi {			/* это овал, поэтому надо ширину больше чем высоту */
+    width: 15px;
+    height: 4px;
+    background: #FFFFFF;
+	-webkit-border-radius: 100px / 80px;
+    -moz-border-radius: 100px / 80px;
+    border-radius: 100px / 80px;
+	transform: rotate(49deg);
+	margin-top: 210px;
+	margin-bottom: 499px;
+	margin-left: 107px;
+	margin-right: 1321px;
+
+}
+
+/* изменяю шрифт в placeholder*/
+::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.4); font-family: Roboto; font-size: 24px; line-height: 36px; font-style: normal;}
+::-moz-placeholder { color: rgba(255, 255, 255, 0.4); font-family: Roboto; font-size: 24px; line-height: 36px; font-style: normal;}
+:-ms-input-placeholder { color: rgba(255, 255, 255, 0.4); font-family: Roboto; font-size: 24px; line-height: 36px; font-style: normal;}
+:-moz-placeholder { color: rgba(255, 255, 255, 0.4); font-family: Roboto; font-size: 24px; line-height: 36px; font-style: normal;}
+
+.search {    /* для формы поиска фильмов*/
+	position: absolute;
+	width:446px;
+	height: 36px;
+	top: 180px;
+	left: 140px;
+	background: #1C1C1C;
+	border-right: none; /* убираю вокруг формы поиска цветную границу*/
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+}
+
+/* результаты поиска */
+
+#kino1 {            /* как я встретил мамку */
+    position: absolute;
+	width: 198px;
+	height: 36px;
+    border-radius: 4px;
+	left: 80px;
+	top: 260px;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+#text1 {
+    position: absolute;
+    top: 253px;
+    left: 96px;
+    bottom: 443px;
+    right: 1178px; 
+}
+
+
+#kino2 {            /* Гоп-стоп */
+    position: absolute;
+	width: 97px;
+	height: 36px;
+    border-radius: 4px;
+	left: 286px;
+	top: 260px;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+#text2 {
+    position: absolute;
+    top: 253px;
+    left: 302px;
+    bottom: 443px;
+    right: 1073px; 
+}
+
+#kino3 {            /* Весенний дрозд*/
+    position: absolute;
+	width: 154px;
+	height: 36px;
+    border-radius: 4px;
+	left: 391px;
+	top: 260px;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+#text3 {
+    position: absolute;
+    top: 253px;
+    left: 407px;
+    bottom: 443px;
+    right: 911px; 
+}
